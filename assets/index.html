@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="html-section">
@@ -26,7 +27,14 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
           <ul>
-            <li>Enter my CSS notes here</li>
+            <li>A margin indicates how much space we want around the outside of an element.</li>
+            <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>One type of CSS is inline style; this edits an individual html element using style tag</li>
+            <li>Another type is internal style sheet; this edits an entire page by using style tag in header tag</li>
+            <li>The most used type is external style sheet, a separate file connected by a link tag in the head tag</li>
+            <li>CSS Rule: a selector (e.g., div) defines elements or attributes to which declarations (property:value;) apply</li>
+            <li>For example: div {color: blue; text-align: justify;}</li>
+            <li>Class attributes share CSS rules to certain elements; these selectors start with a . (i.e., .card)</li>
           </ul>
       </section>
 
@@ -35,14 +43,22 @@
           <ul>
             <li>git status: checks what branch we are currently on</li>
             <li>get checkout -b branch-name: creates a new branch and switches to it</li>
+            <li>HOW I FIXED FOLDER ORG ISSUE IN LOCAL AND GITHUB SYNC:</li>
+            <li>1. git init (creates new git tree on local</li>
+            <li>2. git checkout -b feature/xxx (creates new branch)</li>
+            <li>3. git add -A (adds all files to branch)</li>
+            <li>4. git commit -m xxx (commits changes)</li>
+            <li>5. git pull origin main (double checks that local and Github are synced up)</li>
+            <li>6. git push origin feature/xxx (pushes new branch to Github)</li>
+            <li>7. Go to Github and merge branch</li>
           </ul>
       </section>
 
       <section class="card" id="javascript-section">
-          <h2>Javascript</h2>
-            <ul>
-              <li>Enter my Javascript notes here</li>
-            </ul>
+        <h2>Javascript</h2>
+          <ul>
+            <li>Enter my Javascript notes here</li>
+          </ul>
       </section>
   
     </main>
